@@ -2,6 +2,72 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(9, 150px);
-    
+    grid-template-areas: 
+    "caleb caleb clara"
+    "caleb caleb paul"
+    "caleb caleb samuel"
+    "daniel yomi emma"
+    "daniel yomi emma"
+    "sara sara emma"
+    "sara sara emma"
+    "gideon kamson kayode"
+    "genesis genesis genesis"
+
+    ;
+    gap: 15px;
 }
+
+article{
+    background-color: cyan;
+}
+
+article:nth-of-type(1){
+    grid-area: samuel;
+}
+
+article:nth-of-type(2){
+    grid-area: paul;
+}
+
+article:nth-of-type(3){
+    grid-area: clara;
+}
+
+article:nth-of-type(4){
+    grid-area: emma;
+}
+
+article:nth-of-type(5){
+    grid-area: caleb;
+}
+
+article:nth-of-type(6){
+    grid-area: kamson;
+
+}
+
+article:nth-of-type(7){
+    grid-area: genesis;
+}
+
+article:nth-of-type(8){
+    grid-area: daniel;
+}
+
+article:nth-of-type(9){
+    grid-area: gideon;
+}
+
+article:nth-of-type(10){
+    grid-area: samuel;
+}
+
+article:nth-of-type(11){
+    grid-area: sara;
+}
+
+article:nth-of-type(12){
+    grid-area: yomi;
+}
+
 
